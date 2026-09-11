@@ -45,7 +45,7 @@ LANG_CODES = {
     "santali": "sat_Olck",
 }
 
-app = FastAPI(title="Hindi-Santali IndicTrans2 backend")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
