@@ -338,3 +338,5 @@ document.querySelectorAll("dialog").forEach((dialog) => dialog.addEventListener(
     showToast("IndicTrans2 server not found — using local phrases only");
   }
 })();
+<script src="./script.js"></script>
+<script src="./nipun_integration.js"></script>
