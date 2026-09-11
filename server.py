@@ -27,12 +27,15 @@ NOTES
 """
 
 import torch
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from IndicTransToolkit import IndicProcessor
-
+from nipun_api import router as nipun_router
+app = FastAPI(title="Hindi-Santali IndicTrans2 backend")
+app.include_router(nipun_router)
 MODEL_NAME = "ai4bharat/indictrans2-indic-indic-dist-320M"  # direct hi<->sat, no English hop
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
