@@ -1,0 +1,5 @@
+# ADD TO server.py
+from nipun_api import router as nipun_router
+
+# ADD AFTER app = FastAPI(...)
+app.include_router(nipun_router)

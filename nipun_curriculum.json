@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "title": "PALASH NIPUN Bharat-aligned FLN starter curriculum",
+  "source_note": "This is an app-side alignment layer, not a reproduction of the complete NIPUN Bharat curriculum. It organizes teacher-facing activities around NIPUN Bharat's foundational literacy and numeracy mission.",
+  "official_reference": "Ministry of Education / Department of School Education & Literacy, NIPUN Bharat Guidelines",
+  "grades": [
+    {
+      "id": "balvatika",
+      "label": "Balvatika",
+      "domains": [
+        "literacy",
+        "numeracy"
+      ],
+      "competencies": [
+        {
+          "id": "BV-L1",
+          "domain": "literacy",
+          "title": "Oral language and listening",
+          "outcomes": [
+            "Listen and respond to familiar words, stories and classroom instructions."
+          ]
+        },
+        {
+          "id": "BV-L2",
+          "domain": "literacy",
+          "title": "Early print awareness",
+          "outcomes": [
+            "Recognize familiar symbols, pictures, letters and print in meaningful contexts."
+          ]
+        },
+        {
+          "id": "BV-N1",
+          "domain": "numeracy",
+          "title": "Number sense",
+          "outcomes": [
+            "Count, compare and represent small quantities using concrete objects."
+          ]
+        },
+        {
+          "id": "BV-N2",
+          "domain": "numeracy",
+          "title": "Shapes and patterns",
+          "outcomes": [
+            "Recognize common shapes and continue simple patterns."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grade1",
+      "label": "Grade 1",
+      "domains": [
+        "literacy",
+        "numeracy"
+      ],
+      "competencies": [
+        {
+          "id": "G1-L1",
+          "domain": "literacy",
+          "title": "Oral language comprehension",
+          "outcomes": [
+            "Listen to short classroom texts and respond to questions using familiar language."
+          ]
+        },
+        {
+          "id": "G1-L2",
+          "domain": "literacy",
+          "title": "Phonological awareness",
+          "outcomes": [
+            "Notice and work with sounds, syllables and familiar words."
+          ]
+        },
+        {
+          "id": "G1-L3",
+          "domain": "literacy",
+          "title": "Decoding and early reading",
+          "outcomes": [
+            "Connect letters and sounds and read familiar words and simple sentences."
+          ]
+        },
+        {
+          "id": "G1-N1",
+          "domain": "numeracy",
+          "title": "Number identification and comparison",
+          "outcomes": [
+            "Identify, count and compare numbers using objects and representations."
+          ]
+        },
+        {
+          "id": "G1-N2",
+          "domain": "numeracy",
+          "title": "Early operations",
+          "outcomes": [
+            "Solve simple addition and subtraction situations with concrete materials."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grade2",
+      "label": "Grade 2",
+      "domains": [
+        "literacy",
+        "numeracy"
+      ],
+      "competencies": [
+        {
+          "id": "G2-L1",
+          "domain": "literacy",
+          "title": "Reading fluency",
+          "outcomes": [
+            "Read familiar age-appropriate text with increasing accuracy and fluency."
+          ]
+        },
+        {
+          "id": "G2-L2",
+          "domain": "literacy",
+          "title": "Reading comprehension",
+          "outcomes": [
+            "Answer literal questions and retell key information from short texts."
+          ]
+        },
+        {
+          "id": "G2-L3",
+          "domain": "literacy",
+          "title": "Writing",
+          "outcomes": [
+            "Write simple words and sentences to communicate familiar ideas."
+          ]
+        },
+        {
+          "id": "G2-N1",
+          "domain": "numeracy",
+          "title": "Number operations",
+          "outcomes": [
+            "Use addition and subtraction strategies in familiar situations."
+          ]
+        },
+        {
+          "id": "G2-N2",
+          "domain": "numeracy",
+          "title": "Measurement and patterns",
+          "outcomes": [
+            "Compare measurable attributes and identify or extend simple patterns."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grade3",
+      "label": "Grade 3",
+      "domains": [
+        "literacy",
+        "numeracy"
+      ],
+      "competencies": [
+        {
+          "id": "G3-L1",
+          "domain": "literacy",
+          "title": "Oral reading fluency",
+          "outcomes": [
+            "Read grade-appropriate text with sufficient accuracy, pace and expression for meaning."
+          ]
+        },
+        {
+          "id": "G3-L2",
+          "domain": "literacy",
+          "title": "Comprehension",
+          "outcomes": [
+            "Locate, explain and infer information from short texts."
+          ]
+        },
+        {
+          "id": "G3-L3",
+          "domain": "literacy",
+          "title": "Writing for communication",
+          "outcomes": [
+            "Write connected sentences about familiar experiences and topics."
+          ]
+        },
+        {
+          "id": "G3-N1",
+          "domain": "numeracy",
+          "title": "Number operations",
+          "outcomes": [
+            "Use addition, subtraction, multiplication and division in appropriate contexts."
+          ]
+        },
+        {
+          "id": "G3-N2",
+          "domain": "numeracy",
+          "title": "Fractions, measurement and data",
+          "outcomes": [
+            "Work with simple fractions, measurement, patterns and basic data representations."
+          ]
+        }
+      ]
+    }
+  ],
+  "activity_templates": {
+    "story": "Tell a short locally relevant story in Hindi, then present key words and a comprehension question in Santali.",
+    "picture_talk": "Show or draw a familiar local object and ask learners to name, describe and classify it in their familiar language.",
+    "counting": "Use locally available objects such as seeds, stones or sticks to count, compare and perform simple operations.",
+    "phonics": "Say a familiar word, isolate its sound/syllable, then connect it to the written form.",
+    "reading": "Read a short bilingual passage, pause at key words, and ask a literal or inferential question.",
+    "assessment": "Give one observable task tied to the selected competency and record whether the learner completed it independently, with support, or not yet."
+  }
+}
